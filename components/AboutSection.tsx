@@ -9,7 +9,7 @@ const tabData = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>PSQL</li>
         <li>Express</li>
@@ -24,7 +24,7 @@ const tabData = [
     title: "Education",
     id: "education",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>Northcoders, Manchester</li>
         <li>Manchester Metropolitan University</li>
       </ul>
@@ -34,7 +34,7 @@ const tabData = [
     title: "Experience",
     id: "experience",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>Northcoders</li>
         <li>Manchester Metropolitan University</li>
       </ul>
